@@ -4,7 +4,7 @@ Homework reflection 1
 
 2. In Coding Quiz 1, there are two approaches to matching: 
 (A) Picking the best match X = 0 corresponding to each X = 1 using Z values.
-(B) Using radius_neighbors to pick all matches X = 0 within a distance or 0.2 of each X = 1.
+(B) Using radius_neighbors to pick all matches X = 0 within a distance of 0.2 of each X = 1.
 
 Invent your own type of matching similar to 1 and 2 (or look one up on the internet), which has a different way to pick the matches in X = 0.  Clearly explain the approach you invented or found.
 
