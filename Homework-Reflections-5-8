@@ -20,6 +20,12 @@ Write a dataset that simulates this situation.  (Show the code.) Include noise /
 
 Identify a backdoor path with one or more confounders for the relationship between deer and flowers.
 
+What is a potential problem with computing the Marginal Treatment Effect simply by comparing each untreated item to its counterfactual and taking the maximum difference? (Think of statistics here.)
+Expected answer: We are likely to find the item with the most extreme difference, which may be high simply due to randomness.
+
+Propose a solution and write some code that implements your solution
+Expected answer: maybe we could take the 90th percentile of the treatment effect and use it as a proxy for the Marginal Treatment Effect.
+
 4. Draw a diagram for a situation of your own invention.  The diagram should include at least four nodes, one confounder, and one collider.  Be sure that it is acyclic (no loops).  Which node would say is most like a treatment (X)?  Which is most like an outcome (Y)?
 
 Homework Reflection 6
